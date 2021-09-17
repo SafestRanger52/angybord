@@ -99,7 +99,7 @@ function keyPressed(){
     }
 }
 
-//requires jQuery
+/*requires jQuery
 var data = {
     'url': 'https://audd.tech/example.mp3',
     'return': 'apple_music,spotify',
@@ -109,7 +109,7 @@ getJSON('https://api.audd.io/?jsonp=?', data, function(result){
     console.log(result);
 });
 
-/*async function getBackgroundImg(){
+async function getBackgroundImg(){
     var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
     var responseJSON = await response.json();
 
